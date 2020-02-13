@@ -83,6 +83,24 @@ The fairies have many tricks!”
 ::Onto
 <div class="cursive big">[[The Show]]</div>
 
+::The Show
+<div class="cols">
+<div class="right">
+You’ve never heard music quite like this.
+Atmospheric sounds convey a sombre feeling.The whole room seems to vibrate. 
+A single performer on stage carries all that weight. They are lit with faint pale tones moving slowly and gracefully.
+The colors begin to build as well as the music
+You can feel it in your chest!.
+The dancer stops mid stage and with a puff of smoke they disappear! All goes quiet.
+
+A few beats go by and  a striking woman in a corsetted victorian dress steps out on stage in silence and a single spotlight.
+She walks powerfully to the front of the stage and out on the small catwalk. There she smiles at the crowd, pulls a pin out of her hair, lets it fall and begins to perform a beautiful burlesque number.
+</div>
+<div class="left">
+<img src="woman.png"/>
+</div>
+</div>
+
 
 :: Typewriterdrift[widget]
 \<<widget typewriterdrift>>
