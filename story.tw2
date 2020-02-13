@@ -4,13 +4,13 @@
 }
 
 ::StoryTitle
-Escape from Earth
+Artemisia
 
 ::Start
-<div class="amatic big">
+<div class="amatic big center">
 Artemisia
 </div>
-<div class="amatic medium">
+<div class="amatic medium center">
 [[A cup full of magic...->Page2]]
 </div>
 
@@ -33,7 +33,9 @@ Please wait just a moment”
 ::You Wait
 The murmur of the crowd grows into loud chatter as people begin getting restless.<br/>
 Suddenly the usher springs to life and opens the large doors...
-[[<img src='doors.jpg>|OpenDoors]]
+<div class="center img30">
+[img[opendoors.jpg][OpenDoors]]
+</div>
 
 ::OpenDoors
 Following the warm light from the next room to find yourself in a beautiful parlor bar.<br/>
@@ -42,5 +44,5 @@ It is delicious and efervescent with a unique earthy flavor you can’t put your
 [[You Drink]]
 
 ::You Drink
-Suddenly the silent inscrutable man from the entryway is a bubbly showman standing on an apple box, addressing the crowd.
+As if by magic, the silent inscrutable man from the entryway now appears a bubbly showman standing on an apple box, addressing the crowd.
 
