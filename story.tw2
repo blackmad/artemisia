@@ -46,3 +46,61 @@ It is delicious and efervescent with a unique earthy flavor you can’t put your
 ::You Drink
 As if by magic, the silent inscrutable man from the entryway now appears a bubbly showman standing on an apple box, addressing the crowd.
 
+<<typewriterdrift "Ladies, Gentlemen and variations thereopon! Welcome to La Fée Cabaret! We have a WWWWWWWONDERFUL show for you this evening! Please get your drinks in order and join us in the theater! Enjoy the Artemisium cocktails in moderation, we don’t want you to drift off to fairy land! Not yet anyway!" [[Don't drift off|DontDrift]]>>
+
+::DontDrift
+<h2>The Theater</h2>
+The theater doesn’t seem too special. A few tables in the front, some chairs, some standing room. There must be a hundred other people in there with you.
+
+Dark black curtains line the walls. A few basic sconces provide minimal light.
+
+The glow of the stage is magnificent though. 
+
+The set is gorgeous.
+
+Ornate gilded scenes seem to glow like holograms by Alphonse Mucha  and Gustav Klimt.
+
+[[And then the Master of Ceremonies appears|emcee]]
+
+::emcee
+A person walks out on the stage glimmering in a tuxedo with tails and top hat.
+
+“Welcome Welcome Welcome!” They exclaim moving fluidly gliding across the stage.
+
+“La Fée is an experience like no other. La Fée is more than an experience.
+This is a spirit, a way of being…
+Just like this earth, it is all connected, the theater, the performers, the music and…
+THE ARTEMISIUM! The fairy spirits you imbibe with every sip. 
+Artemisium, an ancient elixir, so old it’s origin is lost in time…
+Or is it lost in space? (winking at the crowd)
+There have been many offshoots, beerenburg, unicum, absinthe among others…
+Yet the secret has remained safe with La Fée. 
+Drink up and commune with the fairies of old but be aware…. 
+The fairies have many tricks!”
+
+[[Onto]]
+
+::Onto
+<div class="cursive big">[[The Show]]</div>
+
+
+:: Typewriterdrift[widget]
+\<<widget typewriterdrift>>
+\    <!-- Create a SPAN with an ID -->
+\  <span id="typewriter"></span>
+\    <!-- In SugarCube, arrays start at 0 -->
+\  <<set _textArrayLength to 0>>
+\    <!-- Repeat every second -->
+\  <<repeat 0.001s>>
+\      <!-- Test if textArrayLength is greater than length of $args[0] -->
+\      <<if _textArrayLength gte $args[0].length>>
+\         <<append "#typewriter">>[[Don't drift off|DontDrift]]<</append>>
+\        <<stop>>
+\      <<else>>
+\      <!-- Append the current position to the existing characters -->
+\      <<append "#typewriter">>$args[0][_textArrayLength]<</append>>
+\      <!-- Update the length -->
+\      <<set _textArrayLength++>>
+\      <</if>>
+\   <</repeat>>
+\<</widget>>
