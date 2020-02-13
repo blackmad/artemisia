@@ -1,0 +1,46 @@
+:: StoryData
+{
+        "ifid": "E23DDC3F-CFB8-43D2-99CA-ADF649CA62A8"
+}
+
+::StoryTitle
+Escape from Earth
+
+::Start
+<div class="amatic big">
+Artemisia
+</div>
+<div class="amatic medium">
+[[A cup full of magic...->Page2]]
+</div>
+
+::Page2
+The facade certainly didn’t look like a theater, nonetheless you find yourself cued up in a strange curtained foyer with gilded accents and [[a beautiful old sign that reads…->ThatReads]]
+
+::ThatReads
+<div class="center cursive medium">Welcome to</div>
+<div class="center cursive big">La Fée Cabaret</div>
+<center>[[Come In]]</center>
+
+::Come In
+An usher stands silent in front of a pair of ornate art deco doors, with a sign that reads…
+<div class="center cursive medium">
+Thank You for your patience. <br/>
+Please wait just a moment”
+</div>
+[[You Wait]]
+
+::You Wait
+The murmur of the crowd grows into loud chatter as people begin getting restless.<br/>
+Suddenly the usher springs to life and opens the large doors...
+[[<img src='doors.jpg>|OpenDoors]]
+
+::OpenDoors
+Following the warm light from the next room to find yourself in a beautiful parlor bar.<br/>
+The bartenders have just completed enough cocktails for each of us in old fashioned champagne glasses. <br/>
+It is delicious and efervescent with a unique earthy flavor you can’t put your finger on. <br/>
+[[You Drink]]
+
+::You Drink
+Suddenly the silent inscrutable man from the entryway is a bubbly showman standing on an apple box, addressing the crowd.
+
